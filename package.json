@@ -1,10 +1,10 @@
 {
-	"name": "resolve",
+	"name": "resolve-alternatus",
 	"description": "resolve like require.resolve() on behalf of files asynchronously and synchronously",
 	"version": "1.3.0",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/slitsevych/resolve-alternus.git"
+		"url": "git://github.com/slitsevych/resolve-alternatus.git"
 	},
 	"bin": {
 		"resolve": "./bin/resolve"

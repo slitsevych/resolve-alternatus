@@ -1,10 +1,11 @@
-# Resolve-alternus
+# Resolve-alternatus
 
 Implements the [node `require.resolve()` algorithm](https://nodejs.org/api/modules.html#modules_all_together) such that you can `require.resolve()` on behalf of a file asynchronously and synchronously
 
 Difference between this package and original "resolve":
 
-- /test folder is not published to the npm
+- /test folder is not published to the npm; as well as /example and some other files
+- 'monorepo-symlink-test' renamed
 
 ## Example
 
@@ -266,7 +267,7 @@ default `opts` values:
 With [npm](https://npmjs.org) do:
 
 ```sh
-npm install resolve-alternus
+npm install resolve-alternatus
 ```
 
 ## License
